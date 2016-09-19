@@ -1,1 +1,9 @@
 //Include the output of git status here
+
+harsh@DESKTOP-UN6CTCH MINGW64 ~/GitAssignment (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+
