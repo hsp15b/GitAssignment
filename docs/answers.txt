@@ -1,0 +1,36 @@
+(a) How many commits have been done to the repository by the end of step 8?
+(5 points)
+
+	ans: 3 new commits and 6 old commits
+
+(b) When was the file .gitignore modified last? (5 points)
+
+	ans: Thursday, September 15,2016. 10:29:34 AM EDT
+
+(c) How many times was each of the files inside the src folder modified? (5 points)
+
+	ans:BasicWeapon.java - commited 1 time on Sep 15, 2016, 1:36PM EDT
+	    RoleGame.java - commited 1 time on Sep 15, 2016, 10:27AM EDT 
+	    Sword.java - commited 2 times on Sep 15, 2016, 1:36PM EDT and on Sep 15, 2016, 10:27AM EDT
+	    Weapon.java - commited 1 time on Sep 15, 2016, 10:27AM EDT
+	    WeaponFactory.java - commited 1 time on Sep 15, 2016, 10:27AM EDT
+
+(d) What is the difference between git log and git status? (5 points)
+	ans: Git log displays all the commits done in the branch, their commit code, commit meddage and the author information
+	     Git status displays current status of the branch. It includes information about the files that are changed and staged for commit.
+
+(e) What command would you use to see the commits where “RoleGame.java”
+was one of the commited files? (5 points)
+
+	ans: First , cd src/edu/fsu/cs/cen5035
+		 then, git log -- RoleGame.java
+
+(f) What command would you use to see the commits whose commit message
+contains the word “file”? (5 points)
+	
+	ans: git log --grep=file
+	
+(g) What command would you use to see the commits made by “Alice” between
+09/01/2016 and 09/16/2016? (5 points)
+
+	ans: git log --author=Alice --before=09/16/2016 --after=09/01/2016
